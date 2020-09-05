@@ -24,6 +24,7 @@ jobs:
         uses: ./.github/actions/hello-world
 
       - name: ha-ha
+        id: jokes
         uses: ./.github/actions/joke-action
 
       - name: create-issue
